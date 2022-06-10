@@ -1,1 +1,191 @@
-1
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+body {
+  background: center top;
+  background-color: black;
+  color: aliceblue;
+  background-image: url('https://r4.wallpaperflare.com/wallpaper/821/494/505/medalion-minimalistic-white-witcher-wallpaper-1439e333b9c589ab5678e7500bc229cd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    min-height: 100vh;
+  }
+
+ .allheader {
+     width: 100%;
+     height: 20%;
+     text-align: center;
+     border-bottom: 4px solid orange;
+     color: orange;
+     float: right;
+     line-height: 20%;
+ }
+
+ .fio {
+     font-size: x-large
+
+ }
+     .about-me__img {
+        display: block;
+        width: 225px;
+        height: 225px;
+        border-radius: 50%;
+        float: right;
+        margin-right: 130px;
+        position: relative; 
+    
+ }
+
+.allmain {
+    width: 65%;
+     height: 100%;
+     text-align: left;
+     float: left;
+     color: white;
+}
+
+.sum {
+    color: white;
+    background: rgb(17, 17, 17, 0.35);
+}
+  
+  .edu {
+    background: url('https://overclockers.ru/st/c/350/300/legacy/blog/397747/227241_O.png') no-repeat center top;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    opacity: .3;
+
+  }
+  
+  .eduu {
+    display: none;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 250px;
+    text-align: center;
+    color: #fff;
+    animation: fade .5s linear forwards;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  div:hover p {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .edu1 {
+    background: url('https://i.pinimg.com/originals/a8/95/67/a89567d408a4db9d024086c53beaaeb8.gif') no-repeat center top;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    opacity: .3;
+ 
+  }
+  
+  .eduu1 {
+    display: none;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 250px;
+    text-align: center;
+    color: #fff;
+    animation: fade .5s linear forwards;
+  }
+  
+.pix {
+ display: flex;
+  margin-right: 4px; 
+  margin-bottom: 4px;
+}
+
+
+.allaside {
+    width: 30%;
+    background: rgb(17, 17, 17, 0.35);
+    float: right;
+    position: relative; 
+    color: orange;
+    padding: 20px 2.5%;
+}
+
+.progressbar { 
+	height: 20px;
+	position: relative;
+	background: #555;
+	padding: 3px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.progressbar > span {
+    display: block;
+    height: 100%;
+    background-color: red;
+    background-image: linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+    );
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+
+    #allfooter {
+    width: 100%;
+     height: 20%;
+     text-align: center;
+     border-top: 4px solid orange;
+     color: orange;
+     float: right;
+     line-height: 20%;
+    }
+
+    .icon {
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    background: center;
+    background-size: cover;
+    }
+
+  .nav-list {
+    display: flex;
+    
+    align-items: left;
+ }
+ 
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+  
+  .nav-link {
+    transition: .3s;
+  } 
